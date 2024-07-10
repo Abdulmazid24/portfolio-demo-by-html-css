@@ -25,10 +25,11 @@ nav > button {
   font-weight: 600;
 }
 .banner-parent {
-  height: 600px;
+  height: 550px;
   background-image: url('assets/Hero-bg.png');
   padding-top: 15px;
   text-align: center;
+  border: 1px dashed;
 }
 .banner-content h1 {
   font-size: 48px;
@@ -44,4 +45,136 @@ nav > button {
   color: white;
   background-color: #0d1321;
   padding: 10px 15px;
+}
+
+/* main's sections styles starts here   */
+main {
+  margin: 0 140px;
+  background-color: rgb(255, 255, 255);
+}
+.main-section-container-1 {
+  text-align: center;
+  padding: 20px;
+}
+.main-section-container-2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.learn-more {
+  box-sizing: border-box;
+  border: 1px solid rgb(13, 19, 33);
+  opacity: 0.7;
+  padding: 5px 10px;
+  margin-top: 15px;
+}
+.main-section-container-3 {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.main-section-container-4 {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.video-section {
+  text-align: center;
+  margin: 20px 0;
+}
+.target-section-h {
+  text-align: center;
+  margin: 100px 0 20px 0;
+}
+.target-card-section {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 100px;
+}
+.card-1 {
+  border-radius: 16px;
+  background-color: rgba(255, 76, 30, 0.05);
+  box-shadow: 20px;
+  padding: 40px;
+}
+.card-2 {
+  border-radius: 16px;
+  background-color: rgba(0, 76, 232, 0.05);
+  box-shadow: 20px;
+  padding: 40px;
+}
+.card-3 {
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+  box-shadow: 20px;
+  padding: 40px;
+}
+#next-target-h {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.need-skills {
+  display: flex;
+  gap: 24px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 16px;
+  background-color: rgb(255, 255, 255);
+  padding: 40px;
+  margin-bottom: 24px;
+}
+.need-support-section {
+  height: 250px;
+  border: 2px solid black;
+  background-image: url('/assets/handshake.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 64px 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-radius: 16px;
+  background-color: rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2);
+  margin-bottom: 50px;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 0;
+}
+.support-session-content {
+  color: white;
+}
+.support-session-content input {
+  padding: 12px 16px;
+  border-radius: 8px;
+  margin: 24px 0;
+  font-size: 20px;
+  font-weight: 600;
+  border: none;
+}
+footer a {
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+/* Shared styles */
+.font-24-800 {
+  font-size: 24px;
+  font-weight: 800;
+  margin: 24px 0;
+}
+.font-32-800 {
+  font-size: 32px;
+  font-weight: 800;
+  margin: 30px 0;
 }
